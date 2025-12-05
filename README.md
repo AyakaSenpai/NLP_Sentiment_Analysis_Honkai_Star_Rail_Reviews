@@ -4,3 +4,11 @@ Apa yang Dibahas di File Kode? File utama "NLP_Sentiment_Analysis_Honkai_Star_Ra
 Analisis yang Dilakukan: Gue analisis sentimen ulasan buat ngerti opini pemain soal game-nya, kayak apakah mereka suka cerita, gameplay, atau complain soal bug/gacha. Pake IndoBERT dari Hugging Face buat labelling otomatis (positif/negatif/netral), terus train model Naive Bayes pake TF-IDF buat prediksi. Ada juga visualisasi wordcloud buat liat kata-kata kunci yang sering muncul di ulasan positif vs negatif.
 Teknik dan Tools yang Dipake: Preprocessing teks pake regex buat bersihin, stemming dengan Sastrawi biar handle bahasa Indonesia, plus scikit-learn buat machine learning dasar. Semuanya di-wrap pake tqdm biar prosesnya keliatan progress-nya, dan transformers buat model BERT yang lebih advanced.
 Kenapa Ini Berguna? Hasilnya bisa kasih insight buat developer game atau komunitas, misalnya ngerti kenapa rating drop setelah update tertentu. Kode-nya modular, jadi lo bisa modifikasi buat game lain atau tambah fitur seperti analisis lebih dalam pake deep learning.
+
+### Connect with me:
+[![Instagram] ( https://www.instagram.com/syaeful.ardi.79?igsh=cmw5dWlra2Z1c3Vy )  
+[![LinkedIn] ( https://www.linkedin.com/in/syaeful-ardhi-46b342329?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app )  
+[![Facebook] ( https://www.facebook.com/share/1BxGgaJJbo/ )  
+
+Dataset: `review_hoyovers_honkai_star_rail_file.csv`  
+google collab: `https://colab.research.google.com/drive/1HUWtetwB4eBfSF98KWOvX11gJEdPD9uq?usp=sharing`
